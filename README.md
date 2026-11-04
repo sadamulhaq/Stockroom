@@ -1,12 +1,8 @@
-# StockFlow - Inventory Management System
+# Stockroom - Inventory Management System
+
+Stockroom is a renamed and modified version of StockFlow by aaweb.tech, changed on 2026-11-05. See the license files in this repository.
 
 A comprehensive inventory management system built with **Laravel 13** (PHP 8.4), **Vue.js 3** (TypeScript), and **MySQL 8**. Features product management, supplier tracking, purchase orders with auto-stock updates, stock movement history, low stock alerts, and analytical reports with charts.
-
-![PHP](https://img.shields.io/badge/PHP-8.4-777BB4?logo=php&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-13.x-FF2D20?logo=laravel&logoColor=white)
-![Vue.js](https://img.shields.io/badge/Vue.js-3-4FC08D?logo=vue.js&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-8-4479A1?logo=mysql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white)
 
 ---
 ![](screenshots/01.png)
@@ -101,7 +97,7 @@ A comprehensive inventory management system built with **Laravel 13** (PHP 8.4),
 
 ```bash
 git clone <repository-url>
-cd inventory-management-system
+cd Stockroom
 ```
 
 ### 2. Start the Application
@@ -143,7 +139,7 @@ Use one of the demo accounts:
 ## Project Structure
 
 ```
-inventory-management-system/
+stockroom/
 ├── api/                        # Laravel 13.x Backend
 │   ├── app/
 │   │   ├── Http/
@@ -274,7 +270,7 @@ inventory-management-system/
 ## Stopping the Application
 
 ```bash
-cd inventory-management-system
+cd Stockroom
 docker compose down
 ```
 
@@ -311,7 +307,7 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 1. The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 2. **Attribution Clause** - If you use this Software (or any substantial portion of it) for commercial purposes, including but not limited to SaaS products, paid applications, or commercial services, you must:
-   - Include a visible link to [https://aaweb.tech](https://aaweb.tech) in your product, website, or documentation with the text: *"Built upon an original idea and codebase from [aaweb.tech](https://aaweb.tech)"*.
+   - Include a visible link to https://aaweb.tech in your product, website, or documentation with the text: *"Built upon an original idea and codebase from aaweb.tech"*.
    - Mention the original project in your README or equivalent documentation for any public fork or derivative.
    - This attribution would be greatly appreciated and helps support the original creator.
 

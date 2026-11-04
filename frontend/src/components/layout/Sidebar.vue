@@ -34,7 +34,7 @@ function isActive(to: string) {
   <aside class="flex h-full w-64 flex-col bg-primary-900 text-white">
     <div class="flex h-16 items-center gap-2 px-6">
       <CubeIcon class="h-8 w-8 text-primary-300" />
-      <span class="text-xl font-bold tracking-tight">StockFlow</span>
+      <span class="text-xl font-bold tracking-tight">Stockroom</span>
     </div>
     <nav class="mt-4 flex-1 space-y-1 px-3">
       <RouterLink
@@ -49,7 +49,7 @@ function isActive(to: string) {
       </RouterLink>
     </nav>
     <div class="border-t border-primary-700 px-6 py-4 text-xs text-primary-400">
-      &copy; {{ new Date().getFullYear() }} StockFlow
+      &copy; {{ new Date().getFullYear() }} Stockroom
     </div>
   </aside>
 </template>

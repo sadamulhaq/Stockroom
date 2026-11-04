@@ -34,7 +34,7 @@ async function handleLogin() {
     <div class="w-full max-w-md">
       <div class="mb-8 text-center">
         <CubeIcon class="mx-auto h-12 w-12 text-primary-600" />
-        <h1 class="mt-4 text-3xl font-bold text-gray-900">StockFlow</h1>
+        <h1 class="mt-4 text-3xl font-bold text-gray-900">Stockroom</h1>
         <p class="mt-1 text-sm text-gray-500">Sign in to your account</p>
       </div>
       <form class="rounded-xl bg-white p-8 shadow-sm ring-1 ring-gray-200" @submit.prevent="handleLogin">

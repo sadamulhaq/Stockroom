@@ -57,7 +57,7 @@ provide('addToast', addToast)
           <Bars3Icon v-if="!sidebarOpen" class="h-6 w-6 text-gray-600" />
           <XMarkIcon v-else class="h-6 w-6 text-gray-600" />
         </button>
-        <h1 class="text-lg font-semibold text-gray-800">StockFlow — Inventory Management</h1>
+        <h1 class="text-lg font-semibold text-gray-800">Stockroom — Inventory Management</h1>
         <div class="flex items-center gap-4">
           <div v-if="authStore.user" class="flex items-center gap-2 text-sm text-gray-600">
             <UserCircleIcon class="h-6 w-6" />
